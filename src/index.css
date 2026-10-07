@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Navbar-এর About,Skills,Projectsইত্যাদিতে ক্লিক করলে page হঠাৎ jump না করে সুন্দরভাবে scroll করবে */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/*button এবং link-এর font একই রাখতে সাহায্য করবে*/
+button,
+a {
+  font-family: inherit;
+}
